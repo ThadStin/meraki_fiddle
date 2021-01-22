@@ -1,0 +1,89 @@
+.fiddleWrap {
+    text-align: center;
+}
+
+.fiddle {
+  width: 50%;
+
+}
+
+.vision {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 96%;
+  left: 48%;
+}
+
+.mission {
+  width: 50px;
+    height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 110%;
+  left: 48%;
+}
+.innovation {
+  width: 50px;
+    height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+  position: absolute;
+  top:122%;
+  left: 37%;
+}
+
+.disruption {
+  width: 50px;
+    height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 123%;
+  left: 48%;
+}
+
+.bespoken {
+  width: 50px;
+    height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 122%;
+  left: 58%;
+}
+/* .vision, .mission, .innovation, .disruption, .bespoken  */
+.tooltiptext {
+  visibility: hidden;
+  width: 30rem;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+}
+
+.vision:hover .tooltiptext {
+visibility: visible;
+
+}
+.mission:hover .tooltiptext {
+visibility: visible;
+}
+.innovation:hover .tooltiptext {
+visibility: visible;
+}
+.disruption:hover .tooltiptext {
+visibility: visible;
+
+}
+.bespoken:hover .tooltiptext {
+  visibility: visible;
+}
+.page {
+  bottom: 0;
+  width: 100%;
+}
